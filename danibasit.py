@@ -1,3 +1,75 @@
+
+# -----------------------
+#   LICENSE VERIFICATION
+# -----------------------
+import os, time, sys
+
+print("\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m")
+print("        PREMIUM ACCESS        ")
+print("\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m")
+print("\nEnter License Key to Continue:\n")
+
+key = input("KEY >>> ")
+
+valid_key = "BASIT-DANI-777"
+
+if key != valid_key:
+    print("\n\033[91m[×] INVALID LICENSE KEY!\033[0m")
+    print("\033[91m[×] ACCESS DENIED!\033[0m")
+    exit()
+else:
+    print("\n\033[92m[✓] LICENSE VERIFIED — ACCESS GRANTED!\033[0m")
+    time.sleep(1)
+    os.system("clear")
+    print("\033[92mLoading...\033[0m")
+    time.sleep(1)
+
+
+
+# -----------------------
+#   ORIGINAL SCRIPT START
+# -----------------------
+
+import os
+import re
+import time
+import uuid
+import hashlib
+import random
+import string
+import requests
+import sys
+import json
+import urllib
+from bs4 import BeautifulSoup
+from random import randint as rr
+from concurrent.futures import ThreadPoolExecutor as tred
+from os import system
+from datetime import datetime
+
+import os, sys
+
+# Ensure required modules are installed
+modules = ['requests', 'urllib3', 'mechanize', 'rich']
+for module in modules:
+    try:
+        __import__(module)
+    except ImportError:
+        os.system(f'pip install {module}')
+
+# Suppress InsecureRequestWarning
+from requests.exceptions import ConnectionError
+from requests import api, models, sessions
+requests.urllib3.disable_warnings()
+
+
+
+
+
+
+
+
+
 import os
 import re
 import time
@@ -518,3 +590,4 @@ def login_2(uid):
 
 if __name__ == '__main__':
     BNG_71_()
+
