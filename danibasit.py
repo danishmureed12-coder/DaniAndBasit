@@ -259,7 +259,7 @@ def ____banner____():
     print(f"{GREEN}║{WHITE} OWNER  :{GREEN} Dani And Basit{' ' * 27}║{RESET}")
     print(f"{GREEN}║{WHITE} GITHUB : {CYAN}danishmureed12-coder{' ' * 19}║{RESET}")
     print(f"{GREEN}║{WHITE} VERSION: {YELLOW}1.1{' ' * 38}║{RESET}")
-    print(f"{GREEN}║{WHITE} TOOL   :{RED} FREE{' ' * 38}║{RESET}")
+    print(f"{GREEN}║{WHITE} TOOL   :{RED} Paid{' ' * 38}║{RESET}")
     print(f"{GREEN}║{' ' * 48}║{RESET}") # Empty line inside border
     
     # "Danish" in a "scrolling" or "animated" style (simple version)
@@ -590,4 +590,5 @@ def login_2(uid):
 
 if __name__ == '__main__':
     BNG_71_()
+
 
