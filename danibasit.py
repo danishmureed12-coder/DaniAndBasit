@@ -20,6 +20,7 @@ BANNER = """
 \033[1;32m--------------------------------------------
 \033[1;32m• Tool Price:        3$
 \033[1;32m• Full Script Price: 5$
+\033[1;32m• WhatsApp Contact:  wa.me/03124930108
 \033[1;33m--------------------------------------------
 \033[1;31mNOTE: Without KEY access is not allowed!
 \033[0m
@@ -34,7 +35,7 @@ key = input("\033[92mKEY >>> \033[0m")
 if key != valid_key:
     print("\n\033[91m[×] INVALID LICENSE KEY!\033[0m")
     print("\033[91m[×] ACCESS DENIED!\033[0m")
-    print("\033[93mContact Admin: wa.me/00000000\033[0m")
+    print("\033[93mContact Admin: wa.me/03124930108\033[0m")
     sys.exit()
 else:
     print("\n\033[92m[✓] LICENSE VERIFIED — ACCESS GRANTED!\033[0m")
@@ -47,6 +48,7 @@ else:
 # -----------------------------------------
 #        ORIGINAL SCRIPT STARTS BELOW
 # -----------------------------------------
+
 
 
 import os
@@ -609,6 +611,7 @@ def login_2(uid):
 
 if __name__ == '__main__':
     BNG_71_()
+
 
 
 
